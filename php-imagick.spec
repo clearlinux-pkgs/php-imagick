@@ -4,7 +4,7 @@
 #
 Name     : php-imagick
 Version  : 3.4.4
-Release  : 3
+Release  : 4
 URL      : https://pecl.php.net/get/imagick-3.4.4.tgz
 Source0  : https://pecl.php.net/get/imagick-3.4.4.tgz
 Summary  : PHP extension to create and modify images using the ImageMagick library
