@@ -4,10 +4,10 @@
 #
 Name     : php-imagick
 Version  : 3.4.4
-Release  : 4
+Release  : 5
 URL      : https://pecl.php.net/get/imagick-3.4.4.tgz
 Source0  : https://pecl.php.net/get/imagick-3.4.4.tgz
-Summary  : PHP extension to create and modify images using the ImageMagick library
+Summary  : No detailed summary available
 Group    : Development/Tools
 License  : PHP-3.01
 Requires: php-imagick-lib = %{version}-%{release}
@@ -22,7 +22,6 @@ Summary: dev components for the php-imagick package.
 Group: Development
 Requires: php-imagick-lib = %{version}-%{release}
 Provides: php-imagick-devel = %{version}-%{release}
-Requires: php-imagick = %{version}-%{release}
 Requires: php-imagick = %{version}-%{release}
 
 %description dev
@@ -39,6 +38,7 @@ lib components for the php-imagick package.
 
 %prep
 %setup -q -n imagick-3.4.4
+cd %{_builddir}/imagick-3.4.4
 
 %build
 export http_proxy=http://127.0.0.1:9/
@@ -61,4 +61,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/imagick.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/imagick.so
