@@ -4,7 +4,7 @@
 #
 Name     : php-imagick
 Version  : 3.4.4
-Release  : 12
+Release  : 13
 URL      : https://pecl.php.net/get/imagick-3.4.4.tgz
 Source0  : https://pecl.php.net/get/imagick-3.4.4.tgz
 Summary  : No detailed summary available
