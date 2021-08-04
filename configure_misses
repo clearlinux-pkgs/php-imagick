@@ -1,5 +1,6 @@
+Configure miss: Which flavour of OpenMP to link... checking for omp_pause_resource_all
+Configure miss: __omp_pause_resource_all
 Configure miss: icc
-Configure miss: suncc
-Configure miss: if compiler supports -R
 Configure miss: if debug is enabled
 Configure miss: if zts is enabled
+Configure miss: suncc

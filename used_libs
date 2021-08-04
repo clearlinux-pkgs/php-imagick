@@ -1,3 +1,4 @@
-libMagickCore-7.Q16HDRI.so.7
-libMagickWand-7.Q16HDRI.so.7
+libMagickCore-7.Q16HDRI.so.10
+libMagickWand-7.Q16HDRI.so.10
 libc.so.6
+libgomp.so.1
