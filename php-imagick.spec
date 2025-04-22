@@ -7,7 +7,7 @@
 #
 Name     : php-imagick
 Version  : 3.8.0
-Release  : 90
+Release  : 91
 URL      : https://pecl.php.net/get/imagick-3.8.0.tgz
 Source0  : https://pecl.php.net/get/imagick-3.8.0.tgz
 Summary  : No detailed summary available
